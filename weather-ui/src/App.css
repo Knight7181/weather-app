@@ -1,0 +1,84 @@
+.App {
+  margin: 20px;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.App-Container {
+  display: flex;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px grey solid;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.Weather-Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.WeatherInput {
+  display: flex;
+  padding: 10px;
+  margin-left: 25px;
+  flex-direction: column;
+}
+
+.WeatherInputBox {
+  width: 75%;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.WeatherInputSubmit {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  border: none;
+  max-width: 100px;
+}
+
+.WeatherInputSubmit:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.WeatherHistory {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 35px;
+  width: 60%;
+}
+
+.WeatherRecentHistory {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.WeatherHistoryTable {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+.WeatherHistoryRow {
+  width: 75%;
+  font-size: 16px;
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+.WeatherHistoryColumn {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
