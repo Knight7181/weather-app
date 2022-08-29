@@ -18,7 +18,9 @@ router.post('/', function(req, res, next) {
     });
   });
 
-  Promise.all(promises).then(() => res.json({weather})).catch(err => res.json(err.status || 500, err.message || 'Internal Server Error'));
+  Promise.all(promises)
+  .then(() => res.json({weather}))
+  .catch(err => res.status(err.status || 500).json({status: err.status || 500, message: err.message || 'Internal Server Error'}));
 
 });
 
