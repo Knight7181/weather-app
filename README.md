@@ -12,5 +12,5 @@
 
 ## How to deploy
 * App is connected to Heroku account. Any code changes pushed to master branch gets automatically deployed.
-* App is deployed at https://weather-app-340.heroku.com/
+* App is deployed at https://weather-app-340.herokuapp.com/
 
